@@ -1,0 +1,20 @@
+.button{
+    font: inherit;
+    padding: 0.25rem 1rem;
+    background: red;
+    color: white;
+    border-radius: 1rem;
+    border: 0.1rem solid white; 
+}
+.button:hover{
+    background: white;
+    color: red;
+    font-weight: bold;
+    border: 0.5px solid red;
+
+}
+.button:active{
+    background: rebeccapurple;
+    color: red;
+    outline: none;
+}

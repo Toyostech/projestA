@@ -1,0 +1,49 @@
+
+.input {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 48rem;
+}
+
+.input label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: red;
+    text-align: left;
+    
+}
+
+.input input {
+    text-align: center;
+    font: inherit;
+    border-radius: 50px;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+    color: red;
+    
+        
+
+
+
+}
+
+.input input:hover {
+    border-radius: 50px;
+    transition: ease 1000ms;
+    border: red solid 1px;
+}
+
+.input input:focus {
+    outline: none;
+    border-color: #4f005f;
+    border: red solid 1px;
+    background: #4f005f;
+
+
+}
